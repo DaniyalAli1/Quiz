@@ -6,7 +6,6 @@ import TweetBox from '@/components/TweetBox'
 const Dashboard = () => {
   return (
     <div className='flex flex-col h-screen'>
-      <Header />
       <div className='flex flex-grow'>
         <Sidebar />
         <div className='w-3/4 bg-gray-100 p-4 overflow-y-scroll'>
